@@ -47,12 +47,20 @@ body {
   font-size: 16px;
 }
 
+.navbar-input-container {
+  width: 100%;
+}
+
 .navbar-input {
-  width: 380px;
+  width: 100%;
   height: auto;
   border: 0px none;
   line-height: 1.5;
   margin-left: 10px;
+}
+
+.body-height {
+  min-height: 100vh;
 }
 
 .iklan {
@@ -61,7 +69,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #eaeaea;
-  width: 480px;
+  width: 100%;
   height: auto;
 }
 
@@ -289,6 +297,11 @@ a {
   border-radius: 4px;
 }
 
+.footer {
+  position: relative;
+  bottom: 0;
+}
+
 .footer-piece {
   display: flex;
   justify-content: space-between;
@@ -306,4 +319,25 @@ a {
   display: flex;
   gap: 15px;
   color: rgba(0, 47, 52, 0.64);
+}
+
+.footer-find-us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px 0;
+  border-top: 2px solid rgba(14, 4, 5, 0.2);
+}
+
+.footer-iklan-baris {
+  font-weight: bold;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 40px 0;
+  font-size: 12px;
+  background-color: rgba(0, 47, 52, 1);
+  color: white;
 }
